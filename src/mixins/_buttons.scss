@@ -16,3 +16,9 @@
   text-decoration: none; // [2]
   background-color:red;
 }
+
+
+@mixin button-primary {
+	@include button-base;
+	background-color:green;
+}
